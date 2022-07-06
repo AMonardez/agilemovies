@@ -1,0 +1,61 @@
+.estrenos{
+    padding:10px 20px 10px 20px;
+}
+h2 {
+    padding: 0px 10px 0px 10px;
+  }
+
+.cartelera{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    -webkit-perspective: 600px;
+    padding-top: 50px;
+    align-items: center;
+}
+.card:nth-child(1){
+    transform-style: preserve-3d;
+    transform: rotateY(90deg);
+    z-index: 1;
+    scale: 70%;
+}
+.card:nth-child(2){
+    transform: rotateY(60deg);
+    transform-style: preserve-3d;
+    z-index: 2;
+    scale: 90%;
+}
+.card:nth-child(3){
+    transform: rotateY(40deg);
+    transform-style: preserve-3d;
+    z-index: 3;
+    scale: 110%;
+}
+.card:nth-child(4){
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    z-index: 4;
+    scale: 130%;
+}
+.card:nth-child(5){
+    transform: rotateY(-30deg);
+    transform-style: preserve-3d;
+    z-index: 3;
+    scale: 110%;
+}
+.card:nth-child(6){
+    transform: rotateY(-50deg);
+    transform-style: preserve-3d;
+    z-index: 2;
+    scale: 90%;
+}
+.card:nth-child(7){
+    transform: rotateY(-70deg);
+    transform-style: preserve-3d;
+    z-index: 1;
+    scale: 70%;
+}
+
+.carrouselCard{
+    max-width:150px;
+}

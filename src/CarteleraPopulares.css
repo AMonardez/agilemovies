@@ -1,0 +1,22 @@
+.popularmovies{
+    padding:0px 20px 0px 20px;
+}
+
+
+.moviegrid{
+    padding:10px;
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+    flex-direction: row;
+    gap: 10px;
+    justify-content:center;
+}
+.moviecard{
+    width:200px;
+    text-align: center;
+    border: gray 1px solid;
+}
+.movietitle{
+    word-wrap: break-word;
+}

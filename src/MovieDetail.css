@@ -1,0 +1,33 @@
+h2{
+    padding: 0px 10px 0px 10px;
+}
+
+.banner{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:300px;
+}
+
+.movieDetails{
+    padding:20px 10px 0px 10px;
+    min-height:200px;
+}
+
+.posterimg{
+    float:left;
+    padding: 0px 10px 10px 0px;
+}
+
+.actorRow{
+    display: flex;
+    gap:10px;
+    overflow-x: scroll;
+}
+
+.actorcard{
+    max-width: 200px;
+}
+.actorname{
+    text-align:center;
+}
