@@ -15,14 +15,14 @@ export default function LoginScreen(){
     };
     
     return(
-        <div>
-            <form className="borde">
+        <div className='cuadro'>
+            <form className="formulario">
                 <h3>AgileMovies</h3>
                 <p>Ingrese con sus credenciales.</p>
-                <legend for='user_field'>Usuario:</legend>
-                <input type='text' id='user_field' requiered value={username} onChange={(e)=>{setUsername(e.target.value)}}></input>
-                <legend for='user_field'>Contraseña:</legend> 
-                <input type='text' requiered id='pass_field' value={password} onChange={(e)=>setPassword(e.target.value)}></input>
+                <label>Usuario:</label>
+                <input type='text' id='user_field' required value={username} onChange={(e)=>{setUsername(e.target.value)}}></input>
+                <label>Contraseña:</label> 
+                <input type='password' required id='pass_field' value={password} onChange={(e)=>setPassword(e.target.value)}></input>
                 <button onClick={clickHandler}>Iniciar Sesión</button>
             </form>
         </div>
